@@ -39,5 +39,6 @@ int[] array = new int[4];
 FillArray(array);
 PrintArray(array);
 Console.WriteLine();
-Console.WriteLine("Количество четных чисел");
-Console.WriteLine(GetEven(array));
+Console.WriteLine($"Количество четных чисел = {GetEven(array)}");
+//Console.WriteLine("Количество четных чисел");
+//Console.WriteLine(GetEven(array));
